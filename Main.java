@@ -5,8 +5,8 @@ public class Main {
 
         Reverse reverse = new Reverse(array1);
         
-        for (int i=0; i<reverse.reverseArrayBrute().length; i++) {
-            System.out.println(reverse.reverseArrayBrute()[i]);
+        for (int i=0; i<array1.length; i++) {
+            System.out.println(reverse.reverseBetter()[i]);
         }
     }
 }

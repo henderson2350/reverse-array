@@ -19,4 +19,16 @@ public class Reverse {
         }
         return reversedArray;
     }
+
+    //O(n/2) method
+    //Swapping items
+    public int[] reverseBetter() {
+        for (int i=0; i<arrayy.length/2; i++) {
+            int temp  = arrayy[i];
+            arrayy[i] = arrayy[arrayy.length - i -1];
+            arrayy[arrayy.length - i -1] = temp;
+        }
+
+        return arrayy;
+    }
 }
